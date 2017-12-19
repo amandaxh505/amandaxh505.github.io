@@ -1,0 +1,41 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  
+  .dark-background {
+    background: salmon;
+  }
+  
+  #logo{
+    position:absolute;
+    top:33px; left:150px; width:140px;
+  }
+  .btn{
+    text-decoration: none;
+    color:white;
+    height: 60px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .btn:hover {
+    color: rgb(235, 219, 219);
+  }
+  .site-container {
+    max-width: 1140px;
+  
+    /* 水平置中這個元素 */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto
+  }
+  
+  
+  
+
+
+  
