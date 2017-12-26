@@ -105,13 +105,16 @@
     margin-right: auto;
     max-width: 1140px;
   }
-
+  
+  /*基本、高階*/
+ 
   .tbl-side{
     display: inline-block;
     margin-top: 71px;
     border:1px solid #D9DFE1;
     border-radius:5px;
-    padding:50px;
+    padding:50px 80px 70px 80px;
+    
   }
 
   .title-side{
@@ -129,14 +132,14 @@
 
   
   .currency-month{
-    margin-top:60px;
+    margin-top:70px;
     display:inline-block;
     color:#264C79;
     font-size: 18px;
   }
 
   .price{
-    margin-top:60px;
+    margin-top:70px;
     display: inline;
     color:#264C79;
     font-weight: 400;
@@ -153,7 +156,10 @@
     margin-bottom: 20px;
   }
 
-
+  .plan-ctnr{
+    margin-bottom: 50px;
+  }
+  
   .plan-side{
     list-style: none;
     color:#1D76BA;
@@ -163,22 +169,216 @@
     margin-top:12px;
   }
 
+ 
   .trial-side{
-    background-color:#ADADAD;
-    margin-top:38px;
+    background-color:#f7f7f7;
     text-decoration: none;
-    border: 1px solid #dadfe1;
+    border: 1px solid #CBD4D8;
     text-align: center;
-    color:#414141;
-    font-size: 14px;
-    font-weight:300; 
-    padding: 8px 35px ;
-    border-radius: 5px; 
+    color:#474747;
+    font-size: 16px;
+    font-weight:400; 
+    padding: 15px 17px;
+    border-radius: 5px;
+    margin-left:30px; 
   }
 
   .trial-side:hover{
-    background-color: #ADADAD;
-    border: 1px solid rgb(44, 44, 44);
+    background-color: #f7f7f7;
+    border: 1px solid rgb(116, 114, 114);
+ 
+  }
+
+  /*豪華計畫*/
+
+  .tbl-center{
+    display: inline-block;
+    background-color: #33678c;
+    margin-top: 71px;
+    border:1px solid #D9DFE1;
+    border-radius:5px;
+    padding:90px 80px 110px 80px;
+  }
+
+  .title-center{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    
+  }
+
+  .title2-center{
+    padding-top:7px;
+    color:#d3e8fc;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  
+  .currency-month-center{
+    margin-top:70px;
+    display:inline-block;
+    color:#fff;
+    font-size: 18px;
+  }
+
+  .price-center{
+    margin-top:70px;
+    display: inline;
+    color:#fff;
+    font-weight: 400;
+    font-size: 42px;
+
+  }
+
+  .billing-center{
+    color:#fff;
+    margin-top:10px;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  .plan-center{
+    list-style: none;
+    color:#d3e8fc;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    margin-top:12px;
+  }
+
+ 
+  .trial-center{
+    background-color:#01BFD0;
+    text-decoration: none;
+    border: 1px solid #01BFD0;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    font-weight:400; 
+    padding: 15px 17px;
+    border-radius: 5px;
+    margin-left:43px; 
+  }
+
+  .trial-center:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+ 
+  }
+
+  /*所有計畫皆包含*/
+  
+  .container3{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    
+  }
+  .icon-row{
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center; 
+   }
+
+   .icon-row2{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 70px;
+    text-align: center; 
+    margin-bottom:80px;
+   }
+
+  .icon-ctnr{
+    display: inline-block;
+    padding:10px 130px;
+  }
+
+  .icon-ctnr-inv{
+    display: inline-block;
+    padding:10px 80px;
+    
+  }
+
+  .icon-ctnr-lang{
+    display: inline-block;
+    padding:10px 70px;
+    margin-left:30px;
+    
+  }
+
+  .icon{
+    display: inline-block;
+    
+  }
+  
+  .title3{
+    color:#666666;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 80px;
+
+  }
+  
+
+  .title-all-plan{
+    margin-top: 20px;
+    color:#666666;
+    font-weight:600;
+    font-size:19px;
+    
+  }
+
+  /*常見問題*/
+  
+  .container4{
+    padding: 50px;
+    background-color: #F6F6F6;
+  }
+
+  .title4{ 
+    color:#333030;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .ques-ctnr{
+    display: inline-block;
+    vertical-align: top;
+    padding-top:50px;
+    padding-left:100px;
+    width: 660px;
+  }
+
+  .right{
+    
+    padding-left:30px;
+    padding-right:72px;
+  }
+
+  .left{
+    width:663px;
+  }
+
+  .ques-title{
+    color:#333333;
+    font-size:20px;
+  }
+
+  .faq{
+    padding-top: 15px;
+    color:#666666;
+    font-weight: 200;
+  }
+
+  .here{
+    color:#337ab7;
+    text-decoration: none;
   }
 
   .site-container {
