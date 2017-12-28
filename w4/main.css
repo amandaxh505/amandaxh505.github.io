@@ -381,6 +381,29 @@
     text-decoration: none;
   }
 
+  /*立即開設您的專屬網店*/
+
+  .container5{
+    padding: 50px;
+    background-color: #3b434b;
+  }
+
+  .form{
+    margin-left: 450px;
+  }
+  
+  .title5{
+    color:#fff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+
+  }
+
+  .email{
+    margin-top: 10px;
+  }
+
   .site-container {
     max-width: 1140px;
   
