@@ -98,12 +98,10 @@
     border: 1px solid #fff;
   }
 
-  /*比較表開始*/
+  /*計畫比較表*/
 
   .container2{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1140px;
+    margin-left: 165px;
   }
   
   /*基本、高階*/
@@ -194,7 +192,7 @@
   .tbl-center{
     display: inline-block;
     background-color: #33678c;
-    margin-top: 71px;
+    margin: 71px -6px 0px -5px;
     border:1px solid #D9DFE1;
     border-radius:5px;
     padding:90px 80px 110px 80px;
@@ -275,11 +273,8 @@
   
   .container3{
     margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1140px;
-    
   }
+
   .icon-row{
     margin-left: 70px;
     margin-right: 70px;
@@ -385,7 +380,7 @@
 
   .container5{
     padding: 50px;
-    background-color: #3b434b;
+    background-color: #2e3741;
   }
 
   .form{
@@ -397,21 +392,147 @@
     text-align: left;
     font-size: 20px;
     font-weight: 300;
+    margin-left:7px;
 
   }
 
   .email{
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
-  .site-container {
-    max-width: 1140px;
-  
-    /* 水平置中這個元素 */
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto
+  .form-email{
+    border: 1px solid transparent;
+    padding:16px 8px;
+    border-radius:5px 0px 0px 5px;
+    font-size: 14px;
+    font-weight: 200;
+    width:360px;
+    margin-right:-5px;
   }
+
+  .button-email{
+    
+    text-decoration: none;
+    background-color:#01BFD0;
+    color:white;
+    border-radius:0px 5px 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    padding:13px 18px 15px 18px;
+    height:20px;
+  }
+
+  .button-email:hover{
+    background-color: rgb(0, 164, 179);
+  }
+
+  .now{
+    margin-top:15px;
+    color:#01BFD0;
+    font-weight:200;
+    font-size:14px;
+  }
+
+  /*合作夥伴*/
+  
+  .container6{
+    margin-top: 50px;
+  }
+
+  .title6{
+    text-align: center;
+    color:#333030;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .partner-row{
+    margin-bottom:60px;
+  }
+
+  .partner-row2{
+    margin-bottom:30px;
+  }
+
+  .partner-ctnr{
+    display: inline-block;
+    text-align: center;
+    width:24%;
+    max-height: 70px;
+  }
+
+
+  .partner-icon{
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .partner-icon img{
+    height:70px;
+  }
+
+  /*footer*/
+
+  .container7{
+    padding: 50px;
+    background-color: #2e3741;
+  }
+  
+  .footericon-row{
+    margin: 24px 0px 50px 90px;
+  }
+
+  .footericon-ctnr{
+    display: inline-block;
+    margin:0px 10px;
+  }
+
+  .footer-icon img{
+    height: 60px;
+  }
+
+  .footerlink-row{
+    margin-left:90px;
+    margin-bottom:40px;
+  }
+
+  .footerlink-column{
+    display: inline-block;
+    margin-right:200px;
+  }
+
+  .social-media{
+    float: right;
+    text-align: right;
+    margin-right:150px;
+  }
+ 
+  .footerlink{
+    display:block;
+    text-decoration: none;
+    color: #cacbcc;
+    font-size:14px;
+    margin-bottom: 20px;
+  }
+
+  .footerlink:hover{
+    color:rgb(248, 248, 248);
+  }
+
+  .copyright{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 200;
+    color:rgb(104, 103, 103);
+    margin-left:90px;
+    margin-bottom:90px;
+  }
+
+  .badge{
+    float: right;
+    margin-right:150px;
+  }
+
   
   
   
